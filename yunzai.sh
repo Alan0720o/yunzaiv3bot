@@ -1,6 +1,4 @@
 #!/bin/bash
-sudo -i
-#获取root权限
 
 yum install -y dnf
 dnf module install nodejs:16 -y

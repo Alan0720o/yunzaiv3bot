@@ -1,10 +1,4 @@
 #!/bin/bash
-if [[ $EUID != 0 ]];then
-echo -e "\033[31m root用户才能用\033[0m\n"
-exit
-else
-echo -e "\033[36m 你好旅行者 为你祈祷..\033[0m\n"
-fi
 
 sudo -i
 #获取root权限
@@ -42,6 +36,6 @@ echo -e 下面是启动和停止运行的命令
 echo -e "\033[31mnode app\033[0m\n"
 echo -e "\033[31m npm start / npm stop
 \033[0m\n"
-done
+
 
 

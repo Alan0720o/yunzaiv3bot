@@ -42,5 +42,6 @@ echo -e 下面是启动和停止运行的命令
 echo -e "\033[31mnode app\033[0m\n"
 echo -e "\033[31m npm start / npm stop
 \033[0m\n"
+done
 
 

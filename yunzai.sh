@@ -1,5 +1,4 @@
 #!/bin/bash
-
 sudo -i
 #获取root权限
 

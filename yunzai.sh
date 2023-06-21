@@ -30,7 +30,7 @@ cd Yunzai-Bot/
 
 
 #安装pnpm
-npm install pnpm -g
+nnpm install pnpm -g
 
 
 # 安装依赖

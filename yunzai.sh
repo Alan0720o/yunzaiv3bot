@@ -29,7 +29,12 @@ git clone https://github.com/Le-niao/Yunzai-Bot.git
 cd Yunzai-Bot/
 
 # 安装依赖
-npm install
+npm install -p
+
+yum groupinstall fonts -y
+
+node app
+
 
 # 启动云崽qq机器人
 npm start

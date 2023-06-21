@@ -28,6 +28,11 @@ git clone https://github.com/Le-niao/Yunzai-Bot.git
 # 进入代码仓库目录
 cd Yunzai-Bot/
 
+
+#安装pnpm
+npm install pnpm -g
+
+
 # 安装依赖
 npm install -p
 

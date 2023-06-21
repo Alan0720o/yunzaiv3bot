@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# 检测用户是否是root用户
+if [ "$(id -u)" != "0" ]; then
+   echo "错误: 该脚本必须以root用户身份运行"
+   exit 1
+fi
+
 # 更新软件包
 sudo apt-get update
 
@@ -27,5 +33,7 @@ npm install
 
 # 启动云崽qq机器人
 npm start
+
+
 
 
